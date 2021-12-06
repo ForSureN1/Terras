@@ -3067,13 +3067,13 @@ ul.slick-dots li button {
         height: 80px;
     }
     .under__nav ul li {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
         font-size: 22px;
     }
     .links {
         width: 200px;
         right: -200px;
-        top: 250px;
+        top: 150px;
     }
     .under__nav-link img {
         width: 20px;
