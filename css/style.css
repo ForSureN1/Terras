@@ -161,7 +161,8 @@
 }
 
 .welcom__content {
-    margin-bottom: 70px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .welcom__text {
@@ -218,6 +219,7 @@
 }
 
 .welcom__slider {
+    margin-top: auto;
     margin-bottom: 40px;
 }
 
