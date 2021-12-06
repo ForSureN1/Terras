@@ -9,6 +9,7 @@
     position: absolute;
     left: 0;
     right: 0;
+    z-index: 2;
 }
 
 .header__container {
@@ -2720,6 +2721,7 @@ ul.slick-dots li button {
     }
     .welcom__container {
         position: relative;
+        z-index: 2;
     }
     .welcom__container::before {
         content: '';
