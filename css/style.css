@@ -2692,7 +2692,7 @@ ul.slick-dots li button {
     .welcom__slider {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 80px;
+        margin-bottom: 90px;
     }
     .welcom__title {
         font-size: 31px;
@@ -2737,7 +2737,7 @@ ul.slick-dots li button {
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0, 0.4);
         z-index: -1;
     }
     .dish {
