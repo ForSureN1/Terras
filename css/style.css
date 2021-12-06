@@ -2688,7 +2688,7 @@ ul.slick-dots li button {
     .welcom__slider {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 40px;
+        margin-bottom: 70px;
     }
     .welcom__title {
         font-size: 22px;
@@ -2716,6 +2716,12 @@ ul.slick-dots li button {
     }
     .dish {
         margin-top: 150px;
+    }
+    .welcom__slider .slick_arrow.slick_prev {
+        left: -6%;
+    }
+    .welcom__slider .slick_arrow.slick_next {
+        right: -6%;
     }
 }
 
@@ -2995,8 +3001,8 @@ ul.slick-dots li button {
         margin: 0;
     }
     .welcom__link {
-        font-size: 10px;
-        padding: 8px 15px;
+        font-size: 16px;
+        padding: 10px 20px;
     }
     .logo {
         display: block;
@@ -3008,10 +3014,10 @@ ul.slick-dots li button {
         font-size: 14px;
     }
     .welcom__title {
-        font-size: 16px;
+        font-size: 22px;
     }
     .welcom__title strong {
-        font-size: 77px;
+        font-size: 110px;
     }
     .welcom__text {
         margin-bottom: 10px;
@@ -3033,15 +3039,15 @@ ul.slick-dots li button {
         margin-top: auto;
     }
     .welcom__content {
-        margin-top: 150px;
+        margin-top: 180px;
     }
     .footer__logo {
         width: 100px;
         height: 80px;
     }
     .under__nav ul li {
-        margin-bottom: 20px;
-        font-size: 18px;
+        margin-bottom: 30px;
+        font-size: 22px;
     }
     .links {
         width: 200px;
