@@ -2749,6 +2749,9 @@ ul.slick-dots li button {
     .welcom__slider .slick_arrow.slick_next {
         right: -6%;
     }
+    .welcom__text {
+        color: rgb(200 195 195);
+    }
 }
 
 @media(max-width: 900px) {
