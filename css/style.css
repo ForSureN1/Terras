@@ -2723,8 +2723,12 @@ ul.slick-dots li button {
         position: relative;
         z-index: 2;
         margin-right: -10px;
+        margin-left: -10px;
         background: url(../img/bgwelcom.jpg) center no-repeat;
         background-position-y: 30%;
+    }
+    .welcom__content {
+        margin-left: 10px;
     }
     .welcom__container::before {
         content: '';
