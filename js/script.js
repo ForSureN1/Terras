@@ -9,15 +9,18 @@ $('.welcom__slider').slick({
     prevArrow: '<button type="button" class="slick_arrow slick_prev"></button>',
     nextArrow: '<button type="button" class="slick_arrow slick_next"></button>',
     responsive: [{
-        breakpoint: 1150,
-        settings: {
-            slidesToShow: 2,
+            breakpoint: 1150,
+            settings: {
+                slidesToShow: 2
+            }
         },
-        breakpoint: 750,
-        settings: {
-            slidesToShow: 1,
+        {
+            breakpoint: 750,
+            settings: {
+                slidesToShow: 1,
+            }
         }
-    }]
+    ]
 })
 
 $('.form__slider').slick({
