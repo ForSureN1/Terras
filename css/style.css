@@ -221,7 +221,7 @@
 
 .welcom__slider {
     margin-top: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .welcom__link {
@@ -2692,7 +2692,7 @@ ul.slick-dots li button {
     .welcom__slider {
         width: 90%;
         margin: 0 auto;
-        margin-bottom: 90px;
+        margin-bottom: 10px;
     }
     .welcom__title {
         font-size: 31px;
