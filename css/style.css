@@ -2716,6 +2716,7 @@ ul.slick-dots li button {
     }
     .welcom__container {
         background-position: 30%;
+        background-size: 120%;
     }
     .welcom {
         position: relative;
