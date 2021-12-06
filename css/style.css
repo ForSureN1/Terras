@@ -2694,16 +2694,16 @@ ul.slick-dots li button {
         margin-bottom: 70px;
     }
     .welcom__title {
-        font-size: 22px;
+        font-size: 31px;
     }
     .welcom__title strong {
-        font-size: 107px;
+        font-size: 150px;
     }
     .welcom__discount span:nth-child(1) {
-        font-size: 38px;
+        font-size: 46px;
     }
     .welcom__discount span:nth-child(2) {
-        font-size: 14px;
+        font-size: 20px;
     }
     .restaurant__text {
         width: 100%;
