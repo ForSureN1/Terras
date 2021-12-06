@@ -47,6 +47,12 @@ $('.galslider__items').slick({
     nextArrow: '<button type="button" class="slick_arrow slick_next"><svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.8008 1.4L1.60078 11.6L11.8008 21.8" stroke="white" stroke-width="2"/></svg></button>',
 })
 
+let vh = window.innerHeight * 0.01;
+document.documentElement.style.setProperty('--vh', `${vh}px`);
+window.addEventListener('resize', () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     // burger
