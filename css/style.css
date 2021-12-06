@@ -815,7 +815,7 @@
     transform: translate(-50%, -50%);
 }
 
-.form-label span {
+.form-label p {
     padding-left: 30px;
 }
 
@@ -2990,7 +2990,7 @@ ul.slick-dots li button {
         height: 170px;
     }
     .discount__title,
-    .form-label span {
+    .form-label p {
         font-size: 14px;
     }
     .discount__title span {
