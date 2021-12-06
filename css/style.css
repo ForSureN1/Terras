@@ -9,7 +9,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .header__container {
@@ -2722,6 +2722,9 @@ ul.slick-dots li button {
     .welcom__container {
         position: relative;
         z-index: 2;
+        margin-right: -10px;
+        background: url(../img/bgwelcom.jpg) center no-repeat;
+        background-position-y: 30%;
     }
     .welcom__container::before {
         content: '';
@@ -2919,6 +2922,9 @@ ul.slick-dots li button {
         margin-right: 0;
         margin-bottom: 20px;
     }
+    .welcom__container {
+        background-size: 140%;
+    }
 }
 
 @media(max-width: 500px) {
@@ -2958,25 +2964,15 @@ ul.slick-dots li button {
     .form__right {
         height: 200px;
     }
+    .welcom__container {
+        background-size: 160%;
+    }
 }
 
 @media(max-width: 450px) {
-    /* .welcom__title strong {
-        font-size: 70px;
-    }
-    .welcom__title {
-        font-size: 16px;
-    }
-    .welcom__text {
-        font-size: 14px;
-        margin-bottom: 10px;
-    } */
     .welcom__link {
         margin-top: 20px;
     }
-    /* .welcom__content {
-        margin-bottom: 260px;
-    } */
     .discount__food,
     .discount__girl {
         height: 170px;
@@ -3000,12 +2996,15 @@ ul.slick-dots li button {
         padding-right: 50px;
         padding-left: 50px;
     }
+    .welcom__title {
+        font-size: 27px;
+    }
+    .welcom__title strong {
+        font-size: 130px;
+    }
 }
 
 @media(max-width: 400px) {
-    /* .welcom__content {
-        margin-bottom: 20px;
-    } */
     .welcom__slider-text p {
         font-size: 12px;
     }
