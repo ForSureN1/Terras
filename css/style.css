@@ -141,7 +141,7 @@
 /* SECTION WELCOM */
 
 .welcom {
-    height: -webkit-fill-available;
+    min-height: -webkit-fill-available;
     height: 100vh;
     max-height: 1080px;
     /* background: url('../img/bgwelcom.jpg') right no-repeat;
