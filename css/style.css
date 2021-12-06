@@ -2689,6 +2689,9 @@ ul.slick-dots li button {
 }
 
 @media(max-width: 992px) {
+    .welcom__slider-item {
+        border-radius: 15px;
+    }
     .welcom__slider {
         width: 90%;
         margin: 0 auto;
