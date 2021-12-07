@@ -2992,6 +2992,10 @@ ul.slick-dots li button {
     .about__text {
         border-radius: 20px;
     }
+    .myata {
+        width: 60px;
+        height: 70px;
+    }
 }
 
 @media(max-width: 900px) {
