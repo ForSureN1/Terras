@@ -40,7 +40,7 @@ $('.galslider__items').slick({
     arrows: true,
     dots: false,
     centerMode: true,
-    speed: 1500,
+    speed: 2000,
     slidesToShow: 3,
     variableWidth: true,
     prevArrow: '<button type="button" class="slick_arrow slick_prev"><svg width="13" height="23" viewBox="0 0 13 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.8008 1.4L1.60078 11.6L11.8008 21.8" stroke="white" stroke-width="2"/></svg></button>',
