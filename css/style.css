@@ -3266,6 +3266,10 @@ ul.slick-dots li button {
         top: -10px;
         right: -10px;
     }
+    .counter__bg-img {
+        width: 330px;
+        height: 500px;
+    }
 }
 
 @media(max-width: 550px) {
