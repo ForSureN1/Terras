@@ -1649,6 +1649,7 @@ ul.slick-dots li button {
     background: #22222A;
     cursor: pointer;
     transition: .1s linear;
+    z-index: 3;
 }
 
 .menu__slider {
@@ -3180,6 +3181,10 @@ ul.slick-dots li button {
     .about__item:nth-child(even) {
         margin-left: 5%;
     }
+    .menu__slider-item {
+        width: 23%;
+        margin-right: 2.6%;
+    }
 }
 
 @media(max-width: 700px) {
@@ -3306,6 +3311,10 @@ ul.slick-dots li button {
         width: 330px;
         height: 500px;
     }
+    .menu__slider-item {
+        width: 31%;
+        margin-right: 3.3%;
+    }
 }
 
 @media(max-width: 550px) {
@@ -3417,6 +3426,10 @@ ul.slick-dots li button {
     }
     .about__item:nth-child(even) .about__text {
         padding: 10px 70px 10px 10px;
+    }
+    .menu__slider-item {
+        width: 47%;
+        margin-right: 3.8%;
     }
 }
 
