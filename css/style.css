@@ -3307,7 +3307,7 @@ ul.slick-dots li button {
         grid-auto-rows: minmax(150px, 150px);
     }
     .gallery__item img {
-        border-radius: 15px;
+        border-radius: 8px;
     }
 }
 
