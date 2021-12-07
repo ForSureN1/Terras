@@ -254,7 +254,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // console.log(compareblock.scrollLeft)
             // console.log(item.offsetWidth)
             // console.log(123)
-        compareblock.scrollLeft += item.offsetWidth + 22
+        compareblock.scrollLeft += item.offsetWidth + parseFloat(getComputedStyle(item).marginRight)
+            // console.log(item.offsetWidth)
+            // console.log(getComputedStyle(item).marginRight)
+            // console.log()
     }
 
     function slideToLeft() {
@@ -263,7 +266,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // console.log(compareblock.scrollLeft)
             // console.log(123)
             // console.log(item.offsetWidth)
-        compareblock.scrollLeft -= item.offsetWidth + 22
+        compareblock.scrollLeft -= item.offsetWidth + parseFloat(getComputedStyle(item).marginRight)
     }
 
 })
