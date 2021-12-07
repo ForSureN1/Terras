@@ -2962,8 +2962,8 @@ ul.slick-dots li button {
         height: 150px;
     }
     .bigcircle-bottom {
-        width: 123px;
-        height: 123px;
+        width: 115px;
+        height: 115px;
     }
     .smallcircle {
         width: 200px;
@@ -2974,8 +2974,8 @@ ul.slick-dots li button {
         height: 114px;
     }
     .smallcircle-bottom {
-        width: 98px;
-        height: 98px;
+        width: 90px;
+        height: 90px;
     }
     .counter__item:nth-child(1) {
         left: 25%;
@@ -2995,6 +2995,17 @@ ul.slick-dots li button {
     .myata {
         width: 60px;
         height: 70px;
+    }
+    .bigcircle,
+    .bigcircle-middle,
+    .smallcircle,
+    .smallcircle-middle {
+        border: 1px solid #C41414;
+    }
+    .bigcircle-bottom::before,
+    .smallcircle-bottom::before {
+        width: 10px;
+        height: 10px;
     }
 }
 
@@ -3225,8 +3236,8 @@ ul.slick-dots li button {
         height: 120px;
     }
     .bigcircle-bottom {
-        width: 103px;
-        height: 103px;
+        width: 94px;
+        height: 94px;
     }
     .counter .bigcircle.bot {
         bottom: -10%;
@@ -3245,8 +3256,8 @@ ul.slick-dots li button {
         height: 94px;
     }
     .smallcircle-bottom {
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 75px;
     }
     .about__text {
         padding: 10px 10px 10px 90px;
