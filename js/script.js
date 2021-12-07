@@ -36,7 +36,7 @@ $('.form__slider').slick({
 })
 
 $('.galslider__items').slick({
-    autoplay: true,
+    autoplay: false,
     arrows: true,
     dots: false,
     centerMode: true,
