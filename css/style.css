@@ -10,6 +10,7 @@
     left: 0;
     right: 0;
     z-index: 3;
+    background: linear-gradient( 180deg, black, transparent);
 }
 
 .header__container {
@@ -814,16 +815,20 @@
     position: relative;
 }
 
-.form-check-circle.active::before {
+.form-check-circle::before {
     position: absolute;
     content: '';
     width: 70%;
     height: 70%;
     border-radius: 100%;
-    background: #14C358;
+    background: #22222A;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.form-check-circle.active::before {
+    background: #14C358;
 }
 
 .form-label p {
@@ -2028,6 +2033,7 @@ ul.slick-dots li button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .pagination__items li {
@@ -2360,6 +2366,7 @@ ul.slick-dots li button {
 .under__nav-link {
     display: flex;
     align-items: center;
+    white-space: break-spaces;
 }
 
 .under__nav-link img {
@@ -2564,9 +2571,10 @@ ul.slick-dots li button {
 /* popup */
 
 @media(max-width: 1650px) {
-    /* .about__container {
-        background-position-y: 100px;
-    } */
+    .contact__item-info img {
+        width: 25px;
+        height: 25px;
+    }
     body {
         font-size: 16px;
     }
@@ -2678,21 +2686,20 @@ ul.slick-dots li button {
 }
 
 @media(max-width: 1550px) {
-    /* .about__container {
-        background-position-y: 120px;
-    } */
+    .icon-link svg {
+        width: 35px;
+        height: 35px;
+    }
     .link__items {
         padding: 55px 8px;
     }
-    .popdishes__tabs a {
-        width: 32%;
-        margin-right: 2%;
+    .popdishes__tab,
+    .popdishes__link {
+        padding: 15px 30px;
     }
-    .popdishes__tabs a:nth-child(3n+3) {
-        margin-right: 0;
-    }
-    .popdishes__tabs a:not(.popdishes__tabs a:nth-child(-n+3)) {
-        margin-top: 20px;
+    .popdishes__link {
+        padding-left: 10px;
+        padding-right: 30px;
     }
     .contact__time-row,
     .contact__item-info {
@@ -2751,6 +2758,37 @@ ul.slick-dots li button {
 }
 
 @media(max-width:1450px) {
+    .form__left {
+        width: 52%;
+    }
+    .form__right {
+        width: 46%;
+    }
+    .main-form__input .main-input,
+    .form-select {
+        padding: 12px 14px;
+    }
+    .form__input-wrapper .input-icon {
+        padding: 10px 15px;
+    }
+    .input-icon.bot img {
+        width: 50%;
+        height: 50%;
+    }
+    .contact__item-info img {
+        width: 20px;
+        height: 20px;
+    }
+    .popdishes__tabs a {
+        width: 32%;
+        margin-right: 2%;
+    }
+    .popdishes__tabs a:nth-child(3n+3) {
+        margin-right: 0;
+    }
+    .popdishes__tabs a:not(.popdishes__tabs a:nth-child(-n+3)) {
+        margin-top: 20px;
+    }
     .discount__food,
     .discount__girl {
         height: 290px;
@@ -3003,6 +3041,10 @@ ul.slick-dots li button {
 }
 
 @media(max-width: 1250px) {
+    .contact__item-map iframe,
+    .contact__item-info {
+        border-radius: 10px;
+    }
     .inner__img img {
         height: 180px;
     }
@@ -3126,6 +3168,9 @@ ul.slick-dots li button {
 }
 
 @media(max-width: 1150px) {
+    .under__nav ul li {
+        font-size: 26px;
+    }
     .big-num {
         font-size: 340px;
     }
@@ -3218,6 +3263,12 @@ ul.slick-dots li button {
 }
 
 @media(max-width: 992px) {
+    .discount__icon {
+        display: none;
+    }
+    .container {
+        padding: 0 20px;
+    }
     .line {
         width: 100%;
         height: 100%;
@@ -3259,8 +3310,8 @@ ul.slick-dots li button {
     .welcom__container {
         position: relative;
         z-index: 2;
-        margin-right: -10px;
-        margin-left: -10px;
+        margin-right: -20px;
+        margin-left: -20px;
         background: url(../img/bgwelcom.jpg) center no-repeat;
         background-position-y: 30%;
     }
@@ -3750,7 +3801,7 @@ ul.slick-dots li button {
         height: 200px;
     }
     .under__nav ul li {
-        font-size: 28px;
+        font-size: 22px;
     }
     .contact__item:nth-child(1),
     .contact__item:nth-child(3) {
@@ -4183,6 +4234,10 @@ ul.slick-dots li button {
 @media(max-height: 550px) {
     .welcom {
         height: 100%;
+    }
+    .welcom__content {
+        margin: 50px 0;
+        margin-left: 20px;
     }
 }
 
