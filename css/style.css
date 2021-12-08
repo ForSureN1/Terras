@@ -3078,6 +3078,34 @@ ul.slick-dots li button {
     }
 }
 
+@media screen and (max-width: 1150px),
+screen and (max-height: 650px) {
+    .welcom__title strong {
+        font-size: 96px;
+    }
+    .welcom__text {
+        margin-bottom: 10px;
+    }
+    .welcom__discount span:nth-child(1) {
+        font-size: 36px;
+    }
+    .welcom__title {
+        font-size: 20px;
+    }
+    .welcom__discount span:nth-child(2) {
+        font-size: 14px;
+    }
+    .welcom__link {
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    .header__logo {
+        width: 100px;
+        height: 100px;
+    }
+}
+
 @media(max-width: 1150px) {
     .big-num {
         font-size: 340px;
