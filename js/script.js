@@ -289,3 +289,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 })
+
+
+function submitForm() {
+    $('#form_loader').show();
+}
