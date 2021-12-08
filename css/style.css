@@ -4102,3 +4102,64 @@ ul.slick-dots li button {
         padding: 40px 20px;
     }
 }
+
+
+/*formLoader*/
+
+.form_loader {
+    position: fixed;
+    display: none;
+    z-index: 30;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.form_loader_block {
+    position: absolute;
+    width: 350px;
+    max-width: 90%;
+    left: 50%;
+    top: 45%;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.form_loader_animate {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+}
+
+.form_loader_animate:after {
+    content: "";
+    display: block;
+    width: 85%;
+    height: 85%;
+    /*margin: 8px;*/
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #C53364 transparent #C53364 transparent;
+    animation: loader-animate 1.2s linear infinite;
+}
+
+.form_loader_text {
+    font-size: 20px;
+    text-align: center;
+}
+
+@keyframes loader-animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/*formLoader*/
