@@ -75,9 +75,13 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.pageYOffset > header.offsetHeight) {
             menu.classList.remove('active')
             burger.classList.remove('active')
-            links_item.classList.add('hidden')
+            if (links_item) {
+                links_item.classList.add('hidden')
+            }
         } else {
-            links_item.classList.remove('hidden')
+            if (links_item) {
+                links_item.classList.remove('hidden')
+            }
         }
     })
 
@@ -267,6 +271,21 @@ document.addEventListener('DOMContentLoaded', () => {
             // console.log(123)
             // console.log(item.offsetWidth)
         compareblock.scrollLeft -= item.offsetWidth + parseFloat(getComputedStyle(item).marginRight)
+    }
+
+    // popup close
+
+    let popupform = document.querySelector('.popup-form')
+    if (popupform) {
+        popupform.addEventListener('click', closePopup)
+    }
+
+    function closePopup(e) {
+        const target = e.target;
+        if (target.classList.contains('popup-closer') || target.classList.contains('popup-form')) {
+            popupform.classList.remove('active')
+            setTimeout(() => { popupform.style.display = "none" }, 300)
+        }
     }
 
 })
