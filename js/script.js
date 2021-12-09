@@ -288,6 +288,46 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+
+    // form action value
+    let form = document.querySelector('.form-main')
+    if (form) {
+        form.addEventListener('input', checkValue)
+    }
+
+    function checkValue(e) {
+        const target = e.target
+        if (target.classList.contains('main-input')) {
+            if (target.value != '') {
+                target.classList.add('active')
+                target.previousElementSibling.classList.add('active')
+            } else {
+                target.classList.remove('active')
+                target.previousElementSibling.classList.remove('active')
+            }
+        }
+        if (target.classList.contains('form-select')) {
+            if (target.selectIndex != 0) {
+                target.classList.add('active')
+                target.previousElementSibling.classList.add('active')
+            } else {
+                target.classList.remove('active')
+                target.previousElementSibling.classList.remove('active')
+            }
+        }
+    }
+
+    // let form_select = document.querySelector('.form-select')
+    // if (form_select) {
+    //     form_select.addEventListener('input', () => {
+    //         if (form_select.value != 0) {
+    //             form_select.classList.add('active')
+    //         } else {
+    //             form_select.classList.remove('active')
+    //         }
+    //     })
+    // }
+
 })
 
 
