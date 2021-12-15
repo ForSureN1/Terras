@@ -1104,8 +1104,13 @@ ul.slick-dots li button {
 /* HEADER ABOUT PAGE STAR */
 
 .header.other {
+    /* background: radial-gradient(57.43% 57.43% at 50% 82.29%, #212129 23.23%, #161616 100%), #161616;
+    position: static; */
+}
+
+.path {
+    padding-top: 117px;
     background: radial-gradient(57.43% 57.43% at 50% 82.29%, #212129 23.23%, #161616 100%), #161616;
-    position: static;
 }
 
 .header__bottom {
@@ -1180,6 +1185,10 @@ ul.slick-dots li button {
 .breadcrumbs__link-next {
     position: absolute;
     bottom: -30px;
+}
+
+.breadcrumbs__link-next {
+    bottom: -34px;
 }
 
 .breadcrumbs__link-prev {
